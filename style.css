@@ -1,0 +1,679 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------------------------------hero-section--------------------------------------- */
+
+#Hero-section{
+    height: 80vh;
+    width: 100%;
+    background-image: url(assets/main-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+#nav-bar{
+    height: 45px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+#nav-bar img{
+    height: 30px;
+    width: 100px;
+    margin-top: 5px;
+}
+
+#nav-bar input{
+    height: 30px;
+    width: 250px;
+    margin-top: 2px;
+    background-color: rgba(54, 51, 51, 0.6);
+    border-radius: 30px;
+    border: 1px solid rgb(48, 48, 48) ;
+    padding-left: 10px;
+}
+
+
+#nav-bar a{
+   text-decoration: none;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 20px;
+}
+
+
+#nav-btn {
+   height: 30px;
+   width: 100px;
+   background-color:  rgb(255, 174, 0);
+   margin-top: 5px;
+   padding-left: 5px;
+   border-radius: 10px;
+   color: black;
+   margin-left: 5px;
+}
+
+#nav-bar span{
+    display: flex;
+}
+
+#Hero-section h1{
+    color: white;
+    margin-left: 150px;
+    font-size: 3rem;
+    margin-top: 190px;
+}
+
+#Hero-section p{
+    color: white;
+    margin-left: 150px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+#hero-btn {
+    height: 40px;
+    width: 140px;
+    color: white;
+    background-color: rgb(255, 174, 0);
+    margin-left: 150px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+/* -----------------------------------------Promotion--------------------------------------------- */
+#container{
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.multiple-divs{
+    height: 250px;
+    width: 250px;
+
+}
+
+
+.multiple-divs img{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.multiple-divs p{
+   color: rgb(156, 155, 155); 
+   margin-top: 10px;
+}
+
+/* ----------------------------------------------collection---------------------------------- */
+
+#collection{
+    margin: auto;
+    margin-top: 40px;
+    height: 700px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color:rgb(153, 0, 255);
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+
+.collect{
+    height: 600px;
+    width: 700px;
+}
+
+
+.collect img{
+   height: 100%;
+   width: 100%; 
+}
+
+.collect h3{
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 150px;
+}
+
+.collect p{
+    font-size: 1rem;
+    color: white;
+    margin-top: 10px;
+    margin-right: 150px;
+}
+
+.collect button{
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: rgb(255, 174, 0) ;
+    border-radius: 20px;
+    border: 1px solid  rgb(255, 174, 0);
+}
+
+ /* <!-- ------------------------------------------------second-collection---------------------------------------- --> */
+
+
+#second-collection{
+    margin: auto;
+    margin-top: 40px;
+    height: 800px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 50px;
+    background-color: rgb(236, 236, 236);
+    margin-top: 0px;
+}
+
+.second-collect{
+    height: 700px;
+    width: 650px;
+}
+
+.second-collect img{
+    height: 100%;
+    width: 100%; 
+}
+
+.second-collect h3{
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 150px;
+    color: black;
+}
+
+.second-collect p{
+     font-size: 1rem;
+    color: white;
+    margin-top: 10px;
+    margin-right: 150px;
+    color: rgb(85, 84, 84);
+}
+
+.second-collect button{
+       height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: rgb(255, 174, 0) ;
+    border-radius: 20px;
+    border: 1px solid  rgb(255, 174, 0);
+}
+
+
+/* <!-- ------------------------------------------------second-collection---------------------------------------- --> */
+
+#mini-divs-container{
+    width: 97%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    gap: 10px;
+    margin-top: 0px;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap; 
+    scroll-behavior: smooth;
+}
+
+.small{
+    height: 350px;
+    width: 270px;
+    background-color: black;
+    margin-bottom: 70px;
+    flex-shrink: 2;
+    /* flex-shrink: 0; */
+}
+
+.small img{
+    height: 360px;
+    width: 270px;
+    background-color: black;
+}
+
+.small p{
+    color: rgb(161, 161, 161);
+}
+
+#Playing-plex {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(255, 174, 0) ;
+    border-radius: 20px;
+    border: 1px solid  rgb(255, 174, 0);
+    display: block;
+    margin: auto;
+    /* margin-top: 100px;
+    margin-bottom: 50px; */
+}
+
+/* <!-- -----------------------------------------------Free-TV----------------------------------------- --> */
+#FreeTV-MainContainer{
+    width: 100%;
+    height: 590px;
+    background-color: rgb(228, 223, 223);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.textdiv{
+    text-align: center;
+}
+
+.textdiv h1{
+    margin-bottom: 20px;
+}
+
+.textdiv p{
+    margin-bottom: 30px;
+}
+
+.picsdiv{
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.TVpic{
+    height: 250px;
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.TVpic img{
+    height: 220px;
+    width: 100%;
+
+}
+
+#FreeTV-MainContainer button{
+margin-top: 40px;
+
+}
+
+
+/* <!-- -----------------------------------------------Compatible----------------------------------------- --> */
+
+
+#Compatible{
+   height: 500px;
+   width: 100%;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   margin-bottom: 50px;
+   
+}
+
+.Compatible-one{
+    height: 300px;
+    width: 400px;
+    margin-left: 30px;
+
+}
+
+.Compatible-one button{
+   margin-left:9px ;
+   margin-top: 20px;
+}
+
+
+
+.Compatible-two{
+    height:450px;
+    width: 800px;
+}
+
+
+.Compatible-two img{
+    height:450px;
+    width: 800px;
+   
+}
+
+/* ----------------------------------------------------proud-partners----------------------------- */
+
+#proudParteners{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(230, 227, 227);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.proudcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.prouddiv{
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+
+}
+
+.prouddiv img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+  
+/* <!-- -----------------------------------------------big-footer----------------------------------------- --> */
+
+#big-footer{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.footer-first{
+    height:330px ;
+    width: 700px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-first img{
+    height:70px ;
+    width: 70px;
+}  
+
+.footer-div{
+    height:330px ;
+    width: 700px;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.inside-footer{
+    height: 330px;
+    width: 190px;
+    flex-wrap: wrap;
+}
+
+.inside-footer h4{
+   color: white;
+   padding-bottom: 10px;
+}
+.inside-footer li{
+   list-style: none;
+   padding: 5px;
+   font-size: 0.8rem;
+   color: rgb(160, 159, 159);
+}
+
+/* <!-- -------------------------------------------------footer------------------------------------------------------------- --> */
+
+footer{
+    height:90px;
+    width: 100%;
+    font-size: 0.8rem;
+    background-color: rgb(46, 46, 46);
+    color: rgb(160, 159, 159);
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer img{
+    height: 25px;
+    width: 20px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* <!-- -----------------------------------------------Media Queries----------------------------------------- --> */
+@media(max-width:924px){
+    #Hero-section{
+    height: 100vh;
+    width: 100%;
+}
+   #nav-bar{
+    height: 40px;
+    width: 100%;
+}
+
+#nav-bar img{
+    height: 20px;
+    width: 60px;
+    margin-top: 5px;
+    
+}
+
+#nav-bar input{
+    height: 20px;
+    width: 160px;
+    margin-left: 20px;
+}
+
+#nav-bar a{
+    display: none;
+}
+
+#nav-btn {
+    display: none;
+}
+
+
+#Hero-section h1{
+    color: white;
+    margin-left: 50px;
+    font-size: 2rem;
+}
+
+#Hero-section p{
+    color: white;
+    margin-left: 45px;
+    font-size: 1rem;
+    flex-wrap: wrap;
+}
+
+#hero-btn {
+    height: 30px;
+    width: 150px;
+    font-size: 1rem;
+    margin-left: 45px;
+}
+  
+#collection{
+    margin-top: 40px;
+    padding-top: 20px;
+    display: flex;
+    gap: 2px;
+}
+
+.collect{
+    height: 320px;
+    width: 320px;
+    padding-top: 30px;
+}
+
+.collect img{
+    height: 100%;
+    width: 100%; 
+}
+
+.collect h3{
+    font-size:1.5rem;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.collect p{
+    font-size: 1rem;
+    color: white;
+    margin-right: 10px;
+}
+
+.first{
+    padding-top: 50px;
+}
+
+#second-collection{
+    display: flex;
+    padding-top: 50px;
+    flex-wrap: wrap-reverse;
+    padding-bottom: 50px;
+}
+
+.second-collect{
+    height: 320px;
+    width: 320px;
+    padding-top: 30px;
+}
+
+.second-collect h3{
+    font-size:1.5rem;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.second-collect p{
+    font-size: 1rem;
+    color: white;
+    margin-right: 10px;
+    color: rgb(112, 112, 112);
+}
+
+.second-collect img{
+    height: 300px;
+    width: 300px; 
+}
+
+
+#mini-divs-container{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.small{
+    flex-shrink: 0;
+}
+
+#FreeTV-MainContainer button{
+margin-top: 10px;
+}
+
+#Compatible{
+   height: 700px;
+   width: 100%;
+   flex-wrap: wrap;
+   gap: 0px;
+}
+
+
+
+.Compatible-one{
+    height: 300px;
+    width: 95%;
+}
+
+.Compatible-two{
+    height: 300px;
+    width: 90%;
+}
+
+.Compatible-two img{
+    height: 300px;
+    width: 320px;
+}
+
+#proudParteners{
+    height: 600px;
+}
+
+#big-footer{
+    width: 100%;
+    height: 100%;
+    gap: 0px;
+    background-color: rgb(46, 46, 46); 
+}
+
+.footer-first{
+    height:100px ;
+    width: 350px;
+
+}
+
+.footer-first img{
+    height:70px ;
+    width: 70px;
+    margin: auto;
+} 
+
+.footer-div{
+    height:1300px ;
+    width: 700px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.inside-footer{
+    height: 200px;
+    width: 190px;
+    flex-wrap: wrap;
+}
+
+}
