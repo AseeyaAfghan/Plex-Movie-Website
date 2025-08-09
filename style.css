@@ -490,6 +490,7 @@ footer img{
    #nav-bar{
     height: 40px;
     width: 100%;
+    padding-right: 5px;
 }
 
 
@@ -503,7 +504,7 @@ footer img{
 
 #nav-bar input{
     height: 20px;
-    width: 160px;
+    width: 130px;
     margin-left: 20px;
 }
 
